@@ -54,7 +54,6 @@ ion-list, ion-item
 {
   background-color: rgba(255, 0, 0, 0);
   --background: transparent;
-  color: white;
 }
 .nationImage
 {

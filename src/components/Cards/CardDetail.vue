@@ -338,7 +338,7 @@ export default defineComponent({
 
 .cardDetail {
   background-color: transparent;
-  color: white;
+  color: var(--ion-color-dark);
 
   display: flex;
   flex-direction: column;

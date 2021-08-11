@@ -1,7 +1,7 @@
 <template>
     <ion-page>
         <ion-header>
-            <ion-toolbar :style="getNationColor(nation, '--background: ')">
+            <ion-toolbar :style="`--background: ${currentColor}; color: white;`">
                 <ion-buttons slot="start">
                     <ion-back-button
                         @click="closeModal()"
@@ -17,7 +17,7 @@
             <h2> Starting-Hand Draw Percentages</h2>
             <p> This table shows the probability of drawing one or more copies of the desired card on the initial hand of 5 cards. </p>
             <div id="table" >
-                <div class="row header" :style="getNationColor(nation, 'background-color: ')">
+                <div class="row header"  :style="`background-color: ${currentColor};`">
                     <div class="col">Target [Amount]</div>
                     <div class="col"> ≥1(%) </div>
                     <div class="col"> ≥2(%) </div>
@@ -37,7 +37,7 @@
             <h2> Mulligan Draw Percentages</h2>
             <p> This table shows the probability of drawing one or more copyes of the desired card when mulligating, assuming you did <strong>NOT</strong> draw any of them in your starting 5-card hand. </p>
             <div id="table">
-                <div class="row header" :style="getNationColor(nation, 'background-color: ')">
+                <div class="row header"  :style="`background-color: ${currentColor};`">
                     <div class="col">Target [Amount]</div>
                     <div class="col"> 1(%) </div>
                     <div class="col"> 2(%) </div>
@@ -71,6 +71,8 @@ import {
     modalController,
 } from "@ionic/vue";
 
+import { mapState } from "vuex";
+
 import { chevronBack } from "ionicons/icons";
 import { defineComponent } from "vue";
 
@@ -93,6 +95,19 @@ export default defineComponent({
   props: {
     nation: null,
     deckList: null,
+  },
+  computed:{
+    ...mapState({
+      cards: state => state.cards.cards,
+      nations: state => state.nations,
+      currentDeck: state => state.decks.currentDeck
+    }),
+    currentColor: function(){
+      if(this.currentDeck)
+        return this.nations[this.currentDeck.nation].color;
+
+      return null;
+    }
   },
   data() {
     return {
@@ -301,33 +316,6 @@ export default defineComponent({
     closeModal() {
       modalController.dismiss({ flag: true });
     },
-    getNationColor(n, propiertie) {
-      let result = propiertie;
-      switch (n) {
-        case "Dragon Empire":
-          result += "DarkRed;";
-          break;
-        case "Keter Sanctuary":
-          result += "DarkGoldenRod;";
-          break;
-        case "Dark States":
-          result += "DarkBlue;";
-          break;
-        case "Stoicheia":
-          result += "DarkGreen;";
-          break;
-        case "Brandt Gate":
-          result += "LightSlateGrey;";
-          break;
-        case "Lyrical Monasterio":
-          result += "HotPink;";
-          break;
-        default:
-          result += "rgb(30, 30, 30);";
-          break;
-      }
-      return result;
-    },
   },
 });
 </script>
@@ -389,13 +377,14 @@ ion-title {
 }
 
 .header .col {
+    color: white;
     font-weight: bold;
     height: 50px;
 }
 
 h2
 {
-    color: darkgoldenrod;
+    color: var(--ion-color-secondary);
     text-align: center;
 }
 

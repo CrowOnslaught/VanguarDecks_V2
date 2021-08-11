@@ -120,7 +120,7 @@ ion-list, ion-item
     margin: 8px;
     font-size: 16px;
     text-align: center;
-    color: white;
+    color: var(--ion-color-dark);
 }
 
 .title
@@ -135,12 +135,12 @@ ion-list, ion-item
 
 a
 {
-    color: rgb(175, 172, 172);
+    color: var(--ion-color-medium);
 }
 
 .subtitle
 {
-    color: darkgoldenrod
+    color: var(--ion-color-secondary);
 }
 
 </style>

@@ -116,14 +116,51 @@ export default  {
                 this.deckCards = [];
                 this.deck = this.currentDeck;
 
+                this.deckAmount = 0;
+                this.rideDeck = [undefined,undefined,undefined,undefined],
+
+                this.grades0=0;
+                this.grades1=0;
+                this.grades2=0;
+                this.grades3=0;
+                this.sentinels=0;
+                this.triggers=0;
+                this.heals=0;
+
                 this.deck.decklist.forEach((e) => {
                     const cardInfo = this.cards.find(r => r.id.split('|')[0] == e.cardId.split('|')[0]);
                     const ci = {...cardInfo};
                     ci.id = e.cardId;
+                    ci.amount = e.amount;
+                    ci.inRideDeck = e.inRideDeck == undefined? false : e.inRideDeck;
+
                     if(e.cardId.split('|')[1])
                         ci.setCode = [e.cardId.split('|')[1]]
 
                     this.deckCards.push(ci);
+
+                    if(ci.inRideDeck)
+                            this.rideDeck[ci.grade] = ci.id;
+
+                        if(ci.grade == 0)
+                            this.grades0+= e.amount;
+                        else if (ci.grade == 1)
+                            this.grades1+= e.amount;
+                        else if (ci.grade == 2)
+                            this.grades2+= e.amount;
+                        else if (ci.grade == 3)
+                            this.grades3+= e.amount;
+
+                        if((ci.trigger != 'None'))
+                        {
+                            this.triggers+= e.amount;
+                            if(ci.trigger == 'Heal')
+                                this.heals+= e.amount;
+                        }
+                        if(ci.keywords.includes('Sentinel'))
+                            this.sentinels += e.amount;
+
+                        this.deckAmount+= e.amount;
                 });
             },
             deep: true,
@@ -323,6 +360,8 @@ export default  {
         },
         async options()
         {
+            console.log('deck', this.deck)
+            console.log('deckCards', this.deckCards)
             const modal = await modalController.create({
                 component: DeckOptions,
                 cssClass: 'small-modal-optionDeck',

@@ -272,7 +272,7 @@ export default {
                 return;
             }
 
-            const formUrl=('../../assets/decklist.pdf');
+            const formUrl=('../../../assets/decklist.pdf');
 
             const formPdfBytes = await fetch(formUrl).then(res => res.arrayBuffer());
 
@@ -487,12 +487,12 @@ ion-spinner
     width: 100%;
     text-align: center;
     margin-top: 40%;
-    color: red;
+    color: var(--ion-color-primary);
 }
 
 #spinnerText
 {
-    color:red;
+    color:var(--ion-color-primary);
     text-align: center;
     padding-top: -20px;
 }
