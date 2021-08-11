@@ -32,7 +32,10 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "tests/**/*.ts",
-    "tests/**/*.tsx"
+    "tests/**/*.tsx", 
+    "src/store/index.js", 
+    "src/store/modules/cards.ts", 
+    "src/main.ts"  
   ],
   "exclude": [
     "node_modules"
