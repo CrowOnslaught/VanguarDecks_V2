@@ -1,7 +1,7 @@
 <template>
     <ion-page>
         <ion-header>
-            <ion-toolbar style="--background: #ff4242;">
+            <ion-toolbar style="--background:  var(--ion-color-primary-shade);">
                 <ion-buttons slot="start">
                     <ion-back-button @click="closeModal()" :icon='chevronBack' style="display: block; color: white;"></ion-back-button>
                 </ion-buttons>        
@@ -127,7 +127,7 @@ ion-list, ion-item
 {
     font-size: 18px;
     text-decoration: underline;
-    color: #ff4242;
+    color: var(--ion-color-primary-shade);
     margin-top: 20px;
     margin-bottom: 10px;
     font-weight: bold;

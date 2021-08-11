@@ -1,7 +1,7 @@
 <template>
     <ion-page v-if="deck && deck != undefined">
         <ion-header >
-            <ion-toolbar :style="`--background: ${currentColor}`">
+            <ion-toolbar :style="`--background: ${currentColor}; color: white;`">
                     <ion-buttons slot="start">
                         <ion-back-button @click="back()" :icon='chevronBack' style="display: block; color: white;"></ion-back-button>
                     </ion-buttons>   

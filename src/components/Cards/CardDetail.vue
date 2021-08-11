@@ -1,7 +1,7 @@
 <template>
   <ion-page>
     <ion-header>
-      <ion-toolbar :style="`--background: ${currentColor}`" >
+      <ion-toolbar :style="`--background: ${currentColor};`" >
         <ion-buttons slot="start">
           <ion-back-button
             @click="closeModal()"
@@ -256,6 +256,7 @@ export default defineComponent({
 
 <style>
 .card-detail-title {
+  color: white;
   font-size: 20px;
 }
 
@@ -337,6 +338,7 @@ export default defineComponent({
 
 .cardDetail {
   background-color: transparent;
+  color: white;
 
   display: flex;
   flex-direction: column;
@@ -379,6 +381,9 @@ export default defineComponent({
   padding: 0 20px 0 20px;
 }
 
+.set{
+  color: white;
+}
 .set:not(:last-child)::after {
   content: " | ";
 }

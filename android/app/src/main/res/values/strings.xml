@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Vanguar[D]ecks</string>
+    <string name="title_activity_main">Vanguar[D]ecks</string>
+    <string name="package_name">io.ionic.vanguardecks</string>
+    <string name="custom_url_scheme">io.ionic.vanguardecks</string>
+    <string name="admob_app_id">ca-app-pub-1601725610082442~9991630778</string>
+
+</resources>

@@ -8,7 +8,7 @@
       </ion-item>
       <ion-item class="orderItem">
         <ion-select
-          value="id"
+          :value="orderInput"
           selected-text="Order by"
           class="orderSel"
           @ionChange="onSortOrder($event.target.value)"
@@ -316,6 +316,7 @@ export default {
       triggers: [],
       grades: [],
 
+      orderInput: "id",
       nameInput: "",
       skillInput: "",
       raceInput: "",
@@ -343,7 +344,7 @@ export default {
     this.nationInput = this.filters.nations;
   },
   mounted(){
-      this.onLoad();
+    this.onLoad();
   },
   methods: {
     onLoad(){
@@ -372,7 +373,8 @@ export default {
         this.sortDescendant= false;
     },
     onSortOrder(value) {
-        this.$store.dispatch("cards/setFilters", { order: (this.sortDescendant ? "-" : "") + value });
+      this.orderInput = value;
+      this.$store.dispatch("cards/setFilters", { order: (this.sortDescendant ? "-" : "") + value });
     },
     onSortOrderBox() {
       this.sortDescendant = !this.sortDescendant;
@@ -545,6 +547,6 @@ ion-checkbox {
 
 ion-input {
   --color: var(--ion-color-primary);
-  --placeholder-color: white;
+  --placeholder-color: var(--ion-color-dark);
 }
 </style>

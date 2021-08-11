@@ -1,3 +1,5 @@
+import localData from '@/assets/cardInfo.json';
+
 const state = {
     cards: [],
     abilities: [],
@@ -58,7 +60,7 @@ const mutations = {
             types: data.types,
             trigger: data.triggers,
             newFilters: true,
-            order: "-id",
+            order: "id",
         };
     },
     RESET_FILTERS(state: any) {
@@ -225,7 +227,6 @@ const mutations = {
             }  
         });
 
-        console.log(2, result.length);
         state.filters.filterCards = result;
     },
 };
@@ -233,9 +234,8 @@ const mutations = {
 const actions = {
     fetchData({ commit }: any /*params*/) {
         return new Promise((resolve, reject) => {
-            fetch(
-                "https://raw.githubusercontent.com/CrowOnslaught/vanguard_D-atabase/master/src/assets/cardInfo.json"
-            ).then((res) =>
+            fetch(  "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks_V2/master/src/assets/cardInfo.json")
+            .then((res) =>
                 res
                     .json()
                     .then((data) => {
@@ -243,7 +243,10 @@ const actions = {
                         resolve(data);
                     })
                     .catch((err) => reject(err))
-            );
+            )
+            .catch(err => {
+                    commit("SET_DATA", localData);
+            });
         });
     },
     setFilters({ commit }: any, params: any){

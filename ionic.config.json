@@ -1,5 +1,7 @@
 {
-  "name": "vanguarDecksV2",
-  "integrations": {},
+  "name": "vanguar[D]ecks",
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "vue"
 }

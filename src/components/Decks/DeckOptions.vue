@@ -272,7 +272,7 @@ export default {
                 return;
             }
 
-            const formUrl=('../../../assets/decklist.pdf');
+            const formUrl=('../../assets/decklist.pdf');
 
             const formPdfBytes = await fetch(formUrl).then(res => res.arrayBuffer());
 

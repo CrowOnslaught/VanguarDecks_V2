@@ -11,7 +11,8 @@
 
 <script>
 import { IonGrid, IonRow, IonCol } from '@ionic/vue';
-import Card from "@/components/Cards/Card.vue"
+import Card from "@/components/Cards/Card.vue";
+import { mapState } from 'vuex';
 
 export default {
   name: 'card-grid',
@@ -25,8 +26,11 @@ export default {
     cardList: Array,
     size: Number
   },
-  methods:{
-  }
+  computed:{
+    ...mapState({
+        cards: state => state.cards.cards,
+    }),
+  },
 }
 </script>
 
