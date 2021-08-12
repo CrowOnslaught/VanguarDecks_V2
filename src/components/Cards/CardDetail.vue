@@ -333,7 +333,8 @@ export default defineComponent({
 }
 
 .circle {
-  color: goldenrod;
+  color: var(--ion-golden);
+  font-weight: bold;
 }
 
 .cardDetail {

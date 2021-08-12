@@ -6,11 +6,12 @@
       </ion-col>
     </ion-row>
   </ion-grid>
-  <h3 class='noCards' v-if="cardList.length ==0">There are no cards that meet those conditions</h3>
+  <ion-spinner v-if="cards.length ==0" id="spinner"></ion-spinner>
+  <h3 class='noCards' v-else-if="cardList.length ==0">There are no cards that meet those conditions</h3>
 </template>
 
 <script>
-import { IonGrid, IonRow, IonCol } from '@ionic/vue';
+import { IonGrid, IonRow, IonCol, IonSpinner } from '@ionic/vue';
 import Card from "@/components/Cards/Card.vue";
 import { mapState } from 'vuex';
 
@@ -20,6 +21,7 @@ export default {
     IonGrid, 
     IonRow, 
     IonCol,
+    IonSpinner,
     Card
   }, 
   props: {
@@ -40,5 +42,14 @@ export default {
   margin-top: 80%;
   text-align: center;
 }
+
+#spinner
+{
+  --color: var(--ion-color-primary);
+  position: absolute;
+  top: 48%;
+  left: 48%;
+}
+
 
 </style>

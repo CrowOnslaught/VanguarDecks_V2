@@ -3,6 +3,42 @@
     "cards":
     [
         {
+            "id" : "427",
+            "name" : "Fleeting Maiden, Hannerore",
+            "skill" : "[AUTO](RC):When your other rear-guard is placed on the same column as this unit, this unit gets [Power]+2000 until end of turn.",
+            "grade" : 1,
+            "power" : 8000,
+            "shield" : 5000,
+            "ability" : "Twin Drive",
+            "nation" : "Lyrical Monasterio",
+            "race" : "Ghost",
+            "sets" : ["D-LBT01"],
+            "setCode" : ["D-LBT01 086"],
+            "keywords" : ["None"],
+            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/427.png",
+            "type" : "Normal Unit",
+            "critical" : 1,
+            "trigger" : "None"
+        },
+        {
+            "id" : "426",
+            "name" : "Adorable Dress, Rilla",
+            "skill" : "[AUTO](RC):At the end of the battle this unit attacked, COST [Counter Blast (1) & put this unit on the bottom of your deck], draw a card, choose one of your units with \"Earnescorrect\" in its card name, and it gets [Power]+5000 until end of turn.",
+            "grade" : 3,
+            "power" : 13000,
+            "shield" : 0,
+            "ability" : "Twin Drive",
+            "nation" : "Lyrical Monasterio",
+            "race" : "Demon",
+            "sets" : ["D-LBT01"],
+            "setCode" : ["D-LBT01 028"],
+            "keywords" : ["Persona Ride"],
+            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/426.png",
+            "type" : "Normal Unit",
+            "critical" : 1,
+            "trigger" : "None"
+        },
+        {
             "id" : "425",
             "name" : "Powerful Dash, Andora",
             "skill" : "[AUTO]:When this unit is placed on (RC) from hand, COST [Counter Blast (2)], and this unit gets [Critical]+1 until end of turn.",
