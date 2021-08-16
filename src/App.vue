@@ -77,8 +77,6 @@ ion-content{
 {
   border-radius: 16px;
   border: var(--ion-color-primary-shade) 3px solid;
-
-  --background: black;
 }
 
 .card-detail-modal>.modal-wrapper
