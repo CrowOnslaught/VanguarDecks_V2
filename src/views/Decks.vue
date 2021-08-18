@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { IonPage, IonContent, IonButton, modalController } from '@ionic/vue';
+import { IonPage, IonContent, IonButton, IonIcon, modalController } from '@ionic/vue';
 import { add } from 'ionicons/icons';
 import { mapState } from 'vuex';
 
@@ -21,6 +21,7 @@ export default  {
     IonContent, 
     IonPage,
     IonButton,
+    IonIcon,
     List
   },
   setup() {
@@ -54,7 +55,7 @@ export default  {
         else
           setTimeout(() => {
             this.createEmptyDeck(data);
-            this.$store.dispatch("cards/setFilters", { nations: [data.nation] });
+            this.$store.dispatch("cards/setFilters", { nations: [data.nation, 'NationLess'] });
           }, (500));
       }
     },
