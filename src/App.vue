@@ -16,13 +16,9 @@ export default defineComponent({
   },
   mounted(){
     this.$store.dispatch("cards/fetchData")
-      .then(data => {
-        console.log(1, 'data' ,data)
-        this.$store.dispatch("decks/fetchData")
-          .then(data => console.log(3, 'Decks', data));
-      });
-
-  }
+      .then(data => { console.log(1, 'data' ,data) });
+    this.$store.dispatch("decks/fetchData") 
+      .then(data => console.log(3, 'Decks', data)); }
 });
 </script>
 
