@@ -37,6 +37,7 @@ const mutations = {
 
     data.id = newId;
     state.decks.push(data);
+    state.currentDeck = data;
     localStorage.setItem('decks', JSON.stringify(state.decks));
   },
   DELETE_DECK(state: any, data: any){
