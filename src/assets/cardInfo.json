@@ -149,7 +149,7 @@
         {
             "id" : "493",
             "name" : "Neatness Meteor Shower",
-            "skill" : "<i>(After a Set Order is played, put it into your Order Zone.)</i><br><br>[CONT]:You may have up to sixteen \"Neatness Meteor Shower\" in your deck.[AUTO]:When this card is put into the Order Zone, you may Soul Charge (1). If it was put by your vanguard's ability, you may draw a card.<br><br>[AUTO]:When this card is put into your drop from the Order Zone, choose one of your opponent's rear-guards, and retire it.",
+            "skill" : "<i>(After a Set Order is played, put it into your Order Zone.)</i><br><br>[CONT]:You may have up to sixteen \"Neatness Meteor Shower\" in your deck.<br><br>[AUTO]:When this card is put into the Order Zone, you may Soul Charge (1). If it was put by your vanguard's ability, you may draw a card.<br><br>[AUTO]:When this card is put into your drop from the Order Zone, choose one of your opponent's rear-guards, and retire it.",
             "grade" : 1,
             "power" : 0,
             "shield" : 0,
@@ -329,7 +329,7 @@
         {
             "id" : "483",
             "name" : "Protector Pride",
-            "skill" : "(After a Set Order is played, put it into your Order Zone.)<br><br>Play this with COST [discard a card from your hand]!<br><br>[CONT](Order Zone):All of your grade 3 rear-guards get \"<span class='red' Boost </span>\".",
+            "skill" : "(After a Set Order is played, put it into your Order Zone.)<br><br>Play this with COST [discard a card from your hand]!<br><br>[CONT](Order Zone):All of your grade 3 rear-guards get \"<span class='red'>Boost</span>\".",
             "grade" : 3,
             "power" : 0,
             "shield" : 0,
@@ -437,7 +437,7 @@
         {
             "id" : "477",
             "name" : "Capture Festival",
-            "skill" : "Choose one of your vanguards, and until end of turn, it gets \"<span class=\"red\"[AUTO](VC):When your opponent's rear-guard is retired during your main phase, you draw a card.</span>\".",
+            "skill" : "Choose one of your vanguards, and until end of turn, it gets \"<span class='red'>[AUTO](VC):When your opponent's rear-guard is retired during your main phase, you draw a card.</span>\".",
             "grade" : 3,
             "power" : 0,
             "shield" : 0,
@@ -599,7 +599,7 @@
         {
             "id" : "468",
             "name" : "Flash Scissors Monster, Scissors Bar",
-            "skill" : "[AUTO](RC):When this unit attacks, if you have a Set Order in your Order Zone, [COST][Soul-Blast]1], and this unit gets [Power] +5000 until end of that battle.",
+            "skill" : "[AUTO](RC):When this unit attacks, if you have a Set Order in your Order Zone, COST [Soul Blast (1)], and this unit gets [Power] +5000 until end of that battle.",
             "grade" : 2,
             "power" : 10000,
             "shield" : 5000,
