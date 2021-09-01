@@ -87,10 +87,6 @@ export default defineComponent({
         closeModal() {
             modalController.dismiss({flag: true});          
         }
-    },
-    mounted()
-    {
-        // console.log('holo');
     }
 })
 </script>

@@ -426,24 +426,31 @@ export default {
     SelectAll(value) {
       if (value == "nation" || value == "default") {
         this.nationInput = this.data.nations;
+        this.$store.dispatch("cards/setFilters", { nations: this.nationInput });
       }
       if (value == "grade" || value == "default") {
         this.gradeInput = this.data.grades;
+        this.$store.dispatch("cards/setFilters", { grades: this.gradeInput });
       }
       if (value == "ability" || value == "default") {
         this.abilityInput = this.data.abilities;
+        this.$store.dispatch("cards/setFilters", { abilities: this.abilityInput });
       }
       if (value == "set" || value == "default") {
         this.setInput = this.data.sets;
+        this.$store.dispatch("cards/setFilters", { sets: this.setInput });
       }
       if (value == "keyword" || value == "default") {
         this.keywordInput = this.data.keywords;
+        this.$store.dispatch("cards/setFilters", { keywords: this.keywordInput });
       }
       if (value == "type" || value == "default") {
         this.typeInput = this.data.types;
+        this.$store.dispatch("cards/setFilters", { types: this.typeInput });
       }
       if (value == "trigger" || value == "default") {
         this.triggerInput = this.data.triggers;
+        this.$store.dispatch("cards/setFilters", { trigger: this.triggerInput });
       }
     },
     SelectNone(value) {

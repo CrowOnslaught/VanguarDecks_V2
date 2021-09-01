@@ -21,7 +21,8 @@ export default  {
   }, 
   computed:{
     ...mapState({
-      cards: state => state.cards.filters.filterCards
+      cards: state => state.cards.filters.filterCards,
+      filters: state => state.cards.filters
     })
   }
 }
