@@ -315,20 +315,25 @@ export default defineComponent({
 }
 
 .act {
+  font-size: 13px;
   background-color: blue;
 }
 .cont {
+  font-size: 13px;
   background-color: red;
 }
 .auto {
+  font-size: 13px;
   background-color: green;
 }
 .cost {
+  font-size: 13px;
   background-color: black;
   border: solid white 1px;
   padding: 1px 2px 1px 2px;
 }
 .oneTurn {
+  font-size: 13px;
   background-color: darkmagenta;
 }
 
