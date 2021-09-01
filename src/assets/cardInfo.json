@@ -6159,24 +6159,6 @@
             "trigger" : "None"
         },
         {
-            "id" : "168",
-            "name" : "Shadow Leak Magician",
-            "skill" : "[CONT](RC):This unit cannot be chosen by your opponent's card effects.",
-            "grade" : 2,
-            "power" : 10000,
-            "shield" : 5000,
-            "ability" : "Intercept",
-            "nation" : "Dark States",
-            "race" : "Elf",
-            "sets" : ["D-BT01"],
-            "setCode" : ["D-BT01 034"],
-            "keywords" : ["None"],
-            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/168.png",
-            "type" : "Normal Unit",
-            "critical" : 1,
-            "trigger" : "None"
-        },
-        {
             "id" : "169",
             "name" : "Witch of Moon Rabbit, Rubinia",
             "skill" : "[AUTO]:When this unit is placed on (RC), [COST][Counter-Blast]1], choose a card from your hand, put it into your soul, and draw a card.",
