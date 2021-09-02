@@ -239,6 +239,8 @@ const actions = {
                 res
                     .json()
                     .then((data) => {
+                        if(data.version != localData.version)
+                            window.alert("Download the latest version on Play Store!")
                         commit("SET_DATA", data);
                         resolve(data);
                     })
