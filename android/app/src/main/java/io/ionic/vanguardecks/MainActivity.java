@@ -1,4 +1,4 @@
-package io.ionic.vanguardecks;
+package io.ionic.vanguardecksadfree;
 import android.os.Bundle;
 
 import com.getcapacitor.BridgeActivity;

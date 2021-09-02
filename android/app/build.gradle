@@ -3,11 +3,11 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "io.ionic.vanguardecks"
+        applicationId "io.ionic.vanguardecksadfree"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 14
-        versionName "3.2.6.0"
+        versionCode 15
+        versionName "3.2.6.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
