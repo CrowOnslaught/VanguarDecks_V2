@@ -78,21 +78,23 @@ export default {
   },
   mounted()
   {
-      AdMob.initialize();
-
-       // // Show Banner Ad
-      AdMob.showBanner(this.options);
-
-      // // Subscribe Banner Event Listener
-      AdMob.addListener('onAdLoaded', (info) => {
-        // console.log('Banner Ad Loaded', info);
-      });
-
-      // // Get Banner Size
-      AdMob.addListener('onAdSize', (info) => {
-        // console.log(info);
-      }); 
-
+      if(process.env.VUE_APP_PREMIUM_VERSION == "FALSE")
+      {
+        AdMob.initialize();
+  
+         // // Show Banner Ad
+        AdMob.showBanner(this.options);
+  
+        // // Subscribe Banner Event Listener
+        AdMob.addListener('onAdLoaded', (info) => {
+          // console.log('Banner Ad Loaded', info);
+        });
+  
+        // // Get Banner Size
+        AdMob.addListener('onAdSize', (info) => {
+          // console.log(info);
+        }); 
+      }
   },
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <ion-app>
+  <ion-app :class="`ion-app__${premium_version}`">
     <ion-router-outlet />
   </ion-app>
 </template>
@@ -14,11 +14,18 @@ export default defineComponent({
     IonApp,
     IonRouterOutlet
   },
+  computed:{
+    // eslint-disable-next-line @typescript-eslint/camelcase
+    premium_version : function(){
+      return process.env.VUE_APP_PREMIUM_VERSION == "TRUE"? 'premium' : 'free';
+    }
+  },
   mounted(){
     this.$store.dispatch("cards/fetchData")
       .then(data => { console.log(1, 'data' ,data) });
     this.$store.dispatch("decks/fetchData") 
-      .then(data => console.log(3, 'Decks', data)); }
+      .then(data => console.log(3, 'Decks', data)); 
+  }
 });
 </script>
 
@@ -27,6 +34,9 @@ ion-app
 {
   max-width: 1000px;
   margin: auto;
+}
+
+.ion-app__free{
   margin-top: 50px;
 }
 
