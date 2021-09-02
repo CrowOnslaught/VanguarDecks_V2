@@ -293,8 +293,9 @@ export default {
 
       //Ride deck
       let rideDeckIndex = 1;
+      let currentIndex = 0;
 
-      for (let i = 0; i < this.cardList.length; i++) {
+      for (let i = currentIndex; i < this.cardList.length; i++) {
         const card = this.cardList[i];
         const isInRideDeck = this.rideDeck.includes(card.id);
 
@@ -331,22 +332,24 @@ export default {
           form.getTextField(mainDecktrigger).setText(triggerOrSentinel);
 
           rideDeckIndex++;
+          if(card.amount <= 1)
+            continue;
         }
 
         //Card Name
-        const mainDeckCard = "Main deck 50 cardsRow" + (i + 1);
+        const mainDeckCard = "Main deck 50 cardsRow" + (currentIndex + 1);
         form.getTextField(mainDeckCard).setText(card.name);
 
         //Card Grade
-        formFields[8 + i].setText(card.grade.toString());
+        formFields[8 + currentIndex].setText(card.grade.toString());
 
         //Card Amount
-        const mainDeckAmount = "Main deck Qty" + (i + 1);
+        const mainDeckAmount = "Main deck Qty" + (currentIndex + 1);
         form.getTextField(mainDeckAmount).setText((card.amount - (isInRideDeck? 1 : 0)).toString());
 
         //Card set (Only if there is only one set)
         if (card.setCode.length == 1) {
-          const mainDeckSet = "No." + (i + 13 >= 15 ? i + 14 : i + 13);
+          const mainDeckSet = "No." + (currentIndex + 13 >= 15 ? currentIndex + 14 : currentIndex + 13);
           form.getTextField(mainDeckSet).setText(card.setCode[0]);
         }
 
@@ -359,8 +362,10 @@ export default {
           triggerOrSentinel +=
             triggerOrSentinel == "" ? "Sentinel" : "/Sentinel";
         }
-        const mainDecktrigger = "Main deck Row" + (i + 1);
+        const mainDecktrigger = "Main deck Row" + (currentIndex + 1);
         form.getTextField(mainDecktrigger).setText(triggerOrSentinel);
+
+        currentIndex++;
       }
 
       const pdfBytes = await pdfDoc.save();
