@@ -8,7 +8,7 @@
                 <ion-title>Vanguar[D]ecks Info</ion-title>
             </ion-toolbar>
         </ion-header>
-        <ion-content>
+        <ion-content  class="background">
             <ion-item>
                 <div class="section">
                     <p class="text title">Version {{data.version}}</p>

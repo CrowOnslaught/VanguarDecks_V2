@@ -1,6 +1,6 @@
 <template>
   <ion-page>
-    <ion-content :fullscreen="true" >
+    <ion-content :fullscreen="true"  class="background">
       <list :list="decks"/>
       <ion-button id="optionBut" @click="newDeck()"> <ion-icon :icon="add"></ion-icon></ion-button>
     </ion-content>

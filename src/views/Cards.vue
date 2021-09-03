@@ -1,6 +1,6 @@
 <template>
   <ion-page>
-    <ion-content :fullscreen="true">
+    <ion-content class="background" :fullscreen="true">
       <card-grid :cardList="cards" :size="4"/>
     </ion-content>
   </ion-page>
