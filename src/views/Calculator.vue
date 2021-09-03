@@ -13,7 +13,7 @@
             </ion-toolbar>
         </ion-header>
 
-        <ion-content id="background">
+        <ion-content id="background"  class="background">
             <h2> Starting-Hand Draw Percentages</h2>
             <p> This table shows the probability of drawing one or more copies of the desired card on the initial hand of 5 cards. </p>
             <div id="table" >

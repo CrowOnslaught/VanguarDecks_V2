@@ -13,7 +13,7 @@
       </ion-toolbar>
     </ion-header>
 
-    <ion-content id="background">
+    <ion-content id="background"  class="background">
       <div class="cardDetail">
         <img class="imgDetail" :src="getImageRoute(currentCard)" />
         <h3 class="titleDetail">{{ currentCard.name }}</h3>

@@ -40,7 +40,7 @@ ion-app
   margin-top: 50px;
 }
 
-ion-content{
+ion-content.background{
   --background: var(--ion-color-background) url('./assets/splash.png') no-repeat center center /cover;
 }
 

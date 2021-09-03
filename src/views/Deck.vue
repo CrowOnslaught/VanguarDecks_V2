@@ -43,7 +43,7 @@
                 </div>
             </ion-item>
         </ion-header>
-        <ion-content >
+        <ion-content  class="background">
             <ion-grid>
                 <ion-row>
                     <ion-col v-for="(c, i) in deckCards" :key="c.id" size="6">
