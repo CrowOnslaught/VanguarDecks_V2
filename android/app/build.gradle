@@ -6,8 +6,8 @@ android {
         applicationId "io.ionic.vanguardecksadfree"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 15
-        versionName "3.2.6.1"
+        versionCode 16
+        versionName "3.2.6.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
