@@ -9,6 +9,12 @@
             </ion-toolbar>
         </ion-header>
         <ion-content  class="background">
+            <ion-item v-if="!is_premium_version">
+                <div class="section">
+                    <p class="text title">adFree version!</p>
+                    <p class="text subtitle">You can buy the adFree version at the Play store <a href="https://play.google.com/store/apps/details?id=io.ionic.vanguardecksadfree">HERE</a>!</p>
+                </div>
+            </ion-item>
             <ion-item>
                 <div class="section">
                     <p class="text title">Version {{data.version}}</p>
@@ -80,7 +86,11 @@ export default defineComponent({
     computed:{
         ...mapState({
             data: state => state.cards,
-        })
+        }),
+        // eslint-disable-next-line @typescript-eslint/camelcase
+        is_premium_version : function(){
+        return process.env.VUE_APP_PREMIUM_VERSION == "TRUE";
+        }
     },
     methods:
     {
