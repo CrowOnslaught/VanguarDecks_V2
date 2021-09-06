@@ -1,6 +1,11 @@
 <template>
   <ion-page>
     <ion-content>
+      <ion-item v-if="!is_premium_version">
+          <div class="section">
+              <p class="text title">adFree version now at <a href="https://play.google.com/store/apps/details?id=io.ionic.vanguardecksadfree">Google play!</a></p>
+          </div>
+      </ion-item>
       <ion-item class="item">
         <ion-button class="selButton resetAll" @click="ResetAll()">
           RESET ALL</ion-button
@@ -339,6 +344,10 @@ export default {
       data: (state) => state.cards,
       filters: (state) => state.cards.filters,
     }),
+    // eslint-disable-next-line @typescript-eslint/camelcase
+    is_premium_version : function(){
+      return process.env.VUE_APP_PREMIUM_VERSION == "TRUE";
+    }
   },
   ionViewWillEnter() {
     this.nationInput = this.filters.nations;
@@ -556,4 +565,38 @@ ion-input {
   --color: var(--ion-color-primary);
   --placeholder-color: var(--ion-color-dark);
 }
+
+.section
+{
+    width: 100vw;
+}
+
+.text
+{
+    margin: 8px;
+    font-size: 16px;
+    text-align: center;
+    color: var(--ion-color-dark);
+}
+
+.title
+{
+    font-size: 18px;
+    text-decoration: underline;
+    color: var(--ion-color-primary-shade);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+a
+{
+    color: var(--ion-color-medium);
+}
+
+.subtitle
+{
+    color: var(--ion-color-secondary);
+}
+
 </style>
