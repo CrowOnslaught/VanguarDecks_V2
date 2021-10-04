@@ -15,7 +15,7 @@
             "sets" : ["D-BT03"],
             "setCode" : ["D-BT03 059"],
             "keywords" : ["None"],
-            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/459.png",
+            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/559.png",
             "type" : "Normal Unit",
             "critical" : 1,
             "trigger" : "None"
@@ -33,7 +33,7 @@
             "sets" : ["D-BT03"],
             "setCode" : ["D-BT03 046", "D-BT03 H33"],
             "keywords" : ["None"],
-            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/458.png",
+            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/558.png",
             "type" : "Normal Unit",
             "critical" : 1,
             "trigger" : "None"
@@ -51,7 +51,7 @@
             "sets" : ["D-BT03"],
             "setCode" : ["D-BT03 032", "D-BT03 H11"],
             "keywords" : ["Persona Ride", "Final Rush"],
-            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/457.png",
+            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/557.png",
             "type" : "Normal Unit",
             "critical" : 1,
             "trigger" : "None"
@@ -69,7 +69,7 @@
             "sets" : ["D-BT03"],
             "setCode" : ["D-BT03 028", "D-BT03 H03"],
             "keywords" : ["None"],
-            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/456.png",
+            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/556.png",
             "type" : "Normal Unit",
             "critical" : 1,
             "trigger" : "None"
@@ -87,7 +87,7 @@
             "sets" : ["D-BT03"],
             "setCode" : ["D-BT03 025", "D-BT03 SP25"],
             "keywords" : ["None"],
-            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/455.png",
+            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/555.png",
             "type" : "Normal Unit",
             "critical" : 1,
             "trigger" : "None"
@@ -105,7 +105,7 @@
             "sets" : ["D-BT03"],
             "setCode" : ["D-BT03 020", "D-BT03 SP20"],
             "keywords" : ["Persona Ride"],
-            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/454.png",
+            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/554.png",
             "type" : "Normal Unit",
             "critical" : 1,
             "trigger" : "None"
@@ -123,7 +123,7 @@
             "sets" : ["D-BT03"],
             "setCode" : ["D-BT03 013", "D-BT03 SP13"],
             "keywords" : ["None"],
-            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/453.png",
+            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/553.png",
             "type" : "Normal Unit",
             "critical" : 1,
             "trigger" : "None"
@@ -141,7 +141,7 @@
             "sets" : ["D-BT03"],
             "setCode" : ["D-BT03 007", "D-BT03 SP07"],
             "keywords" : ["Persona Ride"],
-            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/452.png",
+            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/552.png",
             "type" : "Normal Unit",
             "critical" : 1,
             "trigger" : "None"
@@ -159,7 +159,7 @@
             "sets" : ["D-BT03"],
             "setCode" : ["D-BT03 006", "D-BT03 SP06"],
             "keywords" : ["World"],
-            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/451.png",
+            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/551.png",
             "type" : "Normal Unit",
             "critical" : 1,
             "trigger" : "None"
@@ -177,7 +177,7 @@
             "sets" : ["D-BT03"],
             "setCode" : ["D-BT03 004", "D-BT03 SP04"],
             "keywords" : ["Final Rush"],
-            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/450.png",
+            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/550.png",
             "type" : "Normal Unit",
             "critical" : 1,
             "trigger" : "None"
