@@ -2290,7 +2290,7 @@
         },
         {
             "id" : "467",
-            "name" : "Relaxed and Laid-back, Marguerite",
+            "name" : "Languid Relaxation, Marguerite",
             "skill" : "<i>(You may only have up to four cards with \"HEAL\" in a deck.)</i>",
             "grade" : 0,
             "power" : 5000,
@@ -2344,7 +2344,7 @@
         },
         {
             "id" : "464",
-            "name" : "Running Youth, Haida",
+            "name" : "Running-start Youth, Haida",
             "skill" : "",
             "grade" : 0,
             "power" : 5000,
@@ -2362,7 +2362,7 @@
         },
         {
             "id" : "463",
-            "name" : "Spiritoso, Richarda",
+            "name" : "Spiritoso, Richalda",
             "skill" : "",
             "grade" : 0,
             "power" : 5000,
@@ -2380,7 +2380,7 @@
         },
         {
             "id" : "462",
-            "name" : "Glee Singing, Tetuel",
+            "name" : "Glee Singing, Tetoel",
             "skill" : "",
             "grade" : 0,
             "power" : 5000,
@@ -2398,7 +2398,7 @@
         },
         {
             "id" : "461",
-            "name" : "Fluffy Siesta, Hilma",
+            "name" : "Thick and Fluffy Siesta, Hilma",
             "skill" : "",
             "grade" : 0,
             "power" : 5000,
@@ -2452,7 +2452,7 @@
         },
         {
             "id" : "458",
-            "name" : "Smiling Dragon Scales, Ilze",
+            "name" : "Grinning Dragon Scale, Ilse",
             "skill" : "",
             "grade" : 0,
             "power" : 5000,
@@ -2488,7 +2488,7 @@
         },
         {
             "id" : "456",
-            "name" : "Original Style, Elshka",
+            "name" : "Original Style, Elshuka",
             "skill" : "",
             "grade" : 0,
             "power" : 5000,
@@ -2506,7 +2506,7 @@
         },
         {
             "id" : "455",
-            "name" : "Sharing Happiness, Danael",
+            "name" : "Happiness Distribution, Danael",
             "skill" : "<b>White Wings <i>(Active when your bind only has odd grades)</i> -</b> [AUTO](RC):When this unit boosts, COST [Soul Blast (2)], choose one of your other units, and it gets [Power]+5000 for every two of your rear-guards with odd grades until end of turn.",
             "grade" : 1,
             "power" : 7000,
@@ -2524,7 +2524,7 @@
         },
         {
             "id" : "454",
-            "name" : "Courage to Step Forward, Bertille",
+            "name" : "Advancing Courage, Bertieu",
             "skill" : "[AUTO](RC):When this unit boosts, this unit gets [Power]+2000 until end of turn.",
             "grade" : 1,
             "power" : 8000,
@@ -2542,7 +2542,7 @@
         },
         {
             "id" : "453",
-            "name" : "Habitual Truant Demon, Pelageya",
+            "name" : "Habitual Truant, Pelageya",
             "skill" : "<i>(When revealed as a trigger, all of your front row units get [Power]+10000 until end of turn!)</i>",
             "grade" : 0,
             "power" : 5000,
@@ -2596,7 +2596,7 @@
         },
         {
             "id" : "450",
-            "name" : "Sophisticate, Theresia",
+            "name" : "Sophisticate, Teresia",
             "skill" : "[AUTO](RC):When this unit attacks, if you played an order this turn, COST [Soul Blast (1)], and this unit gets [Power]+5000 until end of turn.",
             "grade" : 3,
             "power" : 13000,
@@ -2614,7 +2614,7 @@
         },
         {
             "id" : "449",
-            "name" : "Admired Elder Sister, Feltyrosa",
+            "name" : "Admired Dear Sister, Feltyrosa",
             "skill" : "[AUTO]:When this unit is rode upon, if you went second, draw a card.",
             "grade" : 0,
             "power" : 6000,
@@ -2686,7 +2686,7 @@
         },
         {
             "id" : "445",
-            "name" : "Downpouring Singer, Elkiel",
+            "name" : "Incessant Vocal, Elkel",
             "skill" : "[AUTO](RC):When your vanguard is placed, COST [bind this unit], and draw a card.<br><br>[AUTO]:When this card is bound, both White Wings and Black Wings of your cards are active until end of your opponent's next turn.",
             "grade" : 3,
             "power" : 13000,
@@ -2722,7 +2722,7 @@
         },
         {
             "id" : "443",
-            "name" : "Honestly Positive, Louche",
+            "name" : "Positive Singing, Louche",
             "skill" : "[CONT](RC):During your turn, this unit gets [Power]+2000 for each of your cards in your order zone.",
             "grade" : 3,
             "power" : 11000,
@@ -2740,7 +2740,7 @@
         },
         {
             "id" : "442",
-            "name" : "Active Life, Jerrie",
+            "name" : "Active Life, Jerry",
             "skill" : "[AUTO](RC):When your unit with \"Earnescorrect\" in its card name is attacked, COST [retire this unit], choose one of the attacked units, and it gets [Power]+10000 until end of that battle.",
             "grade" : 3,
             "power" : 10000,
@@ -2758,7 +2758,7 @@
         },
         {
             "id" : "441",
-            "name" : "Midnight Lesson, Vannes",
+            "name" : "Midnight Lesson, Vannh",
             "skill" : "[AUTO]:When this unit is placed on (RC), COST [Counter Blast (2)], look at five cards from the top of your deck, choose up to two trigger units from among them, call them to open (RC), and shuffle your deck.",
             "grade" : 3,
             "power" : 8000,
@@ -2776,7 +2776,7 @@
         },
         {
             "id" : "440",
-            "name" : "Friend Up, Ilda",
+            "name" : "Friendship, Hilda",
             "skill" : "[AUTO]:When this unit is put on (GC), choose one of your rear-guards with \"Earnescorrect\" in its card name, and return it to your hand. <i>(Perform drive checks and abilities at the end of the battle even when an attacked unit disappears)</i>",
             "grade" : 2,
             "power" : 10000,
@@ -2794,7 +2794,7 @@
         },
         {
             "id" : "439",
-            "name" : "Cold Word Sense, Flor",
+            "name" : "Distinct Wordsense, Flor",
             "skill" : "[AUTO]:When this unit is placed on (RC) from hand, reveal the top card of your deck, and if it is a non-grade 2 unit card, call it to an open (RC). If you could not call a card, put the revealed card on the bottom of your deck.",
             "grade" : 2,
             "power" : 6000,
@@ -2812,7 +2812,7 @@
         },
         {
             "id" : "438",
-            "name" : "Fleeting Admiration, Baruel",
+            "name" : "Fleeting Longing, Baruel",
             "skill" : "<b>Black Wings <i>(Active when your bind only has even grades)</i> -</b> [AUTO]:When this unit is placed on (RC), COST [Soul Blast (3)], choose one of your opponent's units for every two of your rear-guards with even grades, and they get [Power]-5000 until end of turn. Then, your opponent puts all of their [Power] 0 or less rear-guards on the bottom of their deck in any order. <i>(Same unit cannot be chosen twice)</i>",
             "grade" : 2,
             "power" : 10000,
@@ -2830,7 +2830,7 @@
         },
         {
             "id" : "437",
-            "name" : "Lively Motion that Shakes the Skies, Maribuel",
+            "name" : "Sky-quivering Motion, Malibuel",
             "skill" : "<b>White Wings -</b> [CONT](RC): During your turn, this unit gets Power +10000.",
             "grade" : 1,
             "power" : 5000,
@@ -2848,7 +2848,7 @@
         },
         {
             "id" : "436",
-            "name" : "Little Peace, Purael",
+            "name" : "Little Peace, Prael",
             "skill" : "<b>White Wings -</b> [CONT](RC/GC): This unit gets [Power] +2000/[Shield] +5000.",
             "grade" : 1,
             "power" : 8000,
@@ -2866,7 +2866,7 @@
         },
         {
             "id" : "435",
-            "name" : "Moment of Tension, Katie",
+            "name" : "Tense Moment, Katie",
             "skill" : "[CONT](VC/RC): This unit gets Power -2000 during your opponent's turn.",
             "grade" : 1,
             "power" : 9000,
@@ -2884,7 +2884,7 @@
         },
         {
             "id" : "434",
-            "name" : "Unbeatable First, Torane",
+            "name" : "Best Rival, Train",
             "skill" : "[CONT]<span class='tag circle'>(Back Row RC)</span>: This unit gets \"Boost\", and Power -2000.",
             "grade" : 2,
             "power" : 9000,
@@ -2902,7 +2902,7 @@
         },
         {
             "id" : "433",
-            "name" : "With Emotions, Evelina",
+            "name" : "Loaded Sentiments, Evelina",
             "skill" : "When this unit is put on (GC), COST [Soul Blast (1)], choose one of your \"Earnescorrect\" units, and it gets Power +10000 until end of that battle.",
             "grade" : 2,
             "power" : 9000,
@@ -2920,7 +2920,7 @@
         },
         {
             "id" : "432",
-            "name" : "Writing Thoughts, Romana",
+            "name" : "Registering Emotions, Romana",
             "skill" : "[CONT](RC): If you played both \"True-hearted Ruby\" and \"Everlasting Sapphire\" during this turn, this unit gets Power +10000.",
             "grade" : 2,
             "power" : 10000,
@@ -2938,7 +2938,7 @@
         },
         {
             "id" : "431",
-            "name" : "Heartfelt Feelings, Florencia",
+            "name" : "Stronger Yearning in the Heart, Florenzia",
             "skill" : "[AUTO] When this unit is placed on (RC) other than from hand, until end of turn, for the battles that this unit attacked, when your opponent would call cards to (GC) from hand, they must call two or more at the same time.",
             "grade" : 3,
             "power" : 13000,
@@ -2974,7 +2974,7 @@
         },
         {
             "id" : "429",
-            "name" : "Sweet Tone, Creamhild",
+            "name" : "Sweet Tone, Kriemhild",
             "skill" : "[AUTO] When this unit is placed on (RC) during your battle phase, COST [Soul Blast (1)], and this unit gets Power +10000 until end of turn.",
             "grade" : 1,
             "power" : 8000,
@@ -3010,7 +3010,7 @@
         },
         {
             "id" : "427",
-            "name" : "Fleeting Maiden, Hannerore",
+            "name" : "Fleeting Maiden, Hannelore",
             "skill" : "[AUTO](RC):When your other rear-guard is placed on the same column as this unit, this unit gets [Power]+2000 until end of turn.",
             "grade" : 1,
             "power" : 8000,
@@ -3028,7 +3028,7 @@
         },
         {
             "id" : "426",
-            "name" : "Adorable Dress, Rilla",
+            "name" : "Lovable Dress, Lija",
             "skill" : "[AUTO](RC):At the end of the battle this unit attacked, COST [Counter Blast (1) & put this unit on the bottom of your deck], draw a card, choose one of your units with \"Earnescorrect\" in its card name, and it gets [Power]+5000 until end of turn.",
             "grade" : 3,
             "power" : 13000,
@@ -3064,7 +3064,7 @@
         },
         {
             "id" : "424",
-            "name" : "Dreaming Eyes, Emmeline",
+            "name" : "Dreaming Pupils, Emeline",
             "skill" : "[CONT](RC):If you have three or more other rear-guards, this unit gets [Power]+5000.",
             "grade" : 1,
             "power" : 7000,
@@ -3082,7 +3082,7 @@
         },
         {
             "id" : "423",
-            "name" : "Steady Steps, Pecoly",
+            "name" : "Steady Progress, Pecoree",
             "skill" : "[CONT](RC):During your turn, if you have a unit with \"Earnescorrect\" in its card name, this unit gets [Power]+2000.",
             "grade" : 1,
             "power" : 8000,
@@ -3100,7 +3100,7 @@
         },
         {
             "id" : "422",
-            "name" : "Wish Granted by a Duo, Millia",
+            "name" : "Wish Fulfilled by a Pair, Milia",
             "skill" : "[AUTO]:When this unit is placed on (RC), COST [Counter Blast (1)], search your deck for up to one \"Dreaming Eyes, Emmeline\", call it to an open (RC), and shuffle your deck.",
             "grade" : 3,
             "power" : 11000,
@@ -3208,7 +3208,7 @@
         },
         {
             "id" : "415",
-            "name" : "Enthusiastic Lunch, Chantal",
+            "name" : "Enthusiastic Noon, Chantal",
             "skill" : "[ACT](RC)1/Turn:COST [Counter Blast (1)], choose one of your vanguards, and it gets [Power]+5000 until end of turn.",
             "grade" : 1,
             "power" : 8000,
@@ -3226,7 +3226,7 @@
         },
         {
             "id" : "414",
-            "name" : "Earnescorrect Member, Catarin",
+            "name" : "Earnescorrect Member, Katalyn",
             "skill" : "[AUTO](RC):When the attack of \"Earnescorrect Leader, Clarissa\" on your (VC) hits, COST [Counter Blast (1) & discard a card from your hand], and [Stand] this unit.",
             "grade" : 2,
             "power" : 10000,
@@ -3262,7 +3262,7 @@
         },
         {
             "id" : "412",
-            "name" : "Lovingly Watching Over, Otirie",
+            "name" : "Attentive Deep Love, Ottilie",
             "skill" : "[AUTO](RC):When you play \"True Hearted Ruby\", if your vanguard is \"Prismajica, Wilista\", this unit gets [Power] +10000 until end of turn, and you may play an additional order this turn. <i>(Increase the number of plays when activated)</i>",
             "grade" : 3,
             "power" : 13000,
@@ -3280,7 +3280,7 @@
         },
         {
             "id" : "411",
-            "name" : "Quiet Love, Elivia",
+            "name" : "Tranquil Affection, Elivira",
             "skill" : "[AUTO](RC):When you play \"Everlasting Sapphire\", if your vanguard is \"Prismajica, Wilista\", draw a card.",
             "grade" : 1,
             "power" : 8000,
@@ -3316,7 +3316,7 @@
         },
         {
             "id" : "409",
-            "name" : "True Hearted Ruby",
+            "name" : "Truehearted  Ruby",
             "skill" : "Play this with COST [Counter Blast (1)]!<br><br>Draw two cards, choose a card from your hand, and discard it. Put this card into your soul.",
             "grade" : 0,
             "power" : 0,
@@ -3334,7 +3334,7 @@
         },
         {
             "id" : "408",
-            "name" : "Brilliance Hiding Ore, Wilista",
+            "name" : "Brilliance in the Ore, Wilista",
             "skill" : "[AUTO]:When this unit is rode upon, if you went second, draw a card.",
             "grade" : 0,
             "power" : 6000,
@@ -3352,7 +3352,7 @@
         },
         {
             "id" : "407",
-            "name" : "Proof of Effort, Wilista",
+            "name" : "Proof of Hard Work, Wilista",
             "skill" : "[AUTO]:When this unit is rode upon, COST [put a card from your hand into your soul], search your deck for up to one Precious Stone card, reveal it and put it into your hand, and shuffle your deck.<br><br>[AUTO](RC):When you play an order, COST [Soul Blast (1)], and this unit gets [Power]+5000 until end of turn.",
             "grade" : 1,
             "power" : 8000,
@@ -3442,7 +3442,7 @@
         },
         {
             "id" : "402",
-            "name" : "Earnescorrect Supporter, Riona",
+            "name" : "Earnescorrect Supporter, Leona",
             "skill" : "[AUTO](RC):When your other rear-guard with \"Earnescorrect\" in its card name is retired during your opponent's turn, if this unit is on (RC), COST [Soul Blast (1) & discard a card from your hand], and put that retired card into your hand.",
             "grade" : 1,
             "power" : 8000,
@@ -3460,7 +3460,7 @@
         },
         {
             "id" : "401",
-            "name" : "Relaxing Chat, Filomena",
+            "name" : "Relaxed Conversation, Philomena",
             "skill" : "[AUTO]:When this unit is placed on (RC), you may play an additional order this turn. <i>(Increase the number of plays when activated)</i>",
             "grade" : 3,
             "power" : 13000,
@@ -3514,7 +3514,7 @@
         },
         {
             "id" : "398",
-            "name" : "Contradicting Kindness, Virginia",
+            "name" : "Opposing Kindness, Virginia",
             "skill" : "[AUTO](RC):At the end of the battle this unit attacked while boosted, if you played an order this turn, COST [put this unit into your soul], and Counter Charge (1).",
             "grade" : 2,
             "power" : 10000,
@@ -3550,7 +3550,7 @@
         },
         {
             "id" : "396",
-            "name" : "Unbreakable Talent, Henrietta",
+            "name" : "Unrelenting Talent, Henrietta",
             "skill" : "[AUTO](RC):When this unit is boosted, COST [Soul Blast (1)], and increase the [Power] of this unit by the original [Shield] of the unit that is boosting this unit until end of that battle.",
             "grade" : 2,
             "power" : 10000,
@@ -3568,7 +3568,7 @@
         },
         {
             "id" : "395",
-            "name" : "Overcoming it Face to Face",
+            "name" : "Face-Off and Overcome",
             "skill" : "Play this if your vanguard is Archangel of Twin Wings, Alestiel!<br><br>Choose one of your attacked units, and the chosen unit gets [Power]+5000 until end of that battle for each of your rear-guards with odd grades. Until end of turn, when your unit with even grade would be retired from (RC) or (GC), you may put that card into your soul instead of the drop.",
             "grade" : 0,
             "power" : 0,
@@ -3604,7 +3604,7 @@
         },
         {
             "id" : "393",
-            "name" : "Fresh Prince, Harriet",
+            "name" : "Classy Breeze, Harriet",
             "skill" : "[CONT](RC):During your turn, if your Order Zone has two or more cards, this unit gets [Power]+5000.",
             "grade" : 1,
             "power" : 8000,
@@ -3622,7 +3622,7 @@
         },
         {
             "id" : "392",
-            "name" : "Charming Smile, Cecilia",
+            "name" : "Charming Style, Tsetsilia",
             "skill" : "[AUTO]:When this unit is placed on (RC) from hand, if you have three or more other rear-guards, COST [Counter Blast (1)], and draw a card.",
             "grade" : 2,
             "power" : 9000,
@@ -3640,7 +3640,7 @@
         },
         {
             "id" : "391",
-            "name" : "Innocent Happiness",
+            "name" : "Romantic Happiness",
             "skill" : "<i>(After a Set Order is played, put it into your Order Zone.)</i>[AUTO](Order Zone):When this Song is sung, draw a card, choose one of your vanguards, and it gets [Power]+5000 until end of turn.",
             "grade" : 1,
             "power" : 0,
@@ -3658,7 +3658,7 @@
         },
         {
             "id" : "390",
-            "name" : "Cleaning Zone",
+            "name" : "Clean Clean",
             "skill" : "Play this with COST [Counter Blast (1)]!<br><br>Draw a card, choose one of your units, and it gets [Power]+5000 until end of turn.",
             "grade" : 2,
             "power" : 0,
@@ -3694,7 +3694,7 @@
         },
         {
             "id" : "388",
-            "name" : "For the Sake of Singing, Loronerol",
+            "name" : "To Deliver a Song, Loronerol",
             "skill" : "[AUTO]:When this unit is rode upon, if you went second, draw a card.",
             "grade" : 0,
             "power" : 6000,
@@ -3766,7 +3766,7 @@
         },
         {
             "id" : "384",
-            "name" : "Flowering Season, Rudy",
+            "name" : "Blooming  Season, Rudi",
             "skill" : "[AUTO](RC):When your rear-guard is returned to your hand, this unit gets [Power]+5000 until end of turn.",
             "grade" : 2,
             "power" : 8000,
@@ -3784,7 +3784,7 @@
         },
         {
             "id" : "383",
-            "name" : "Laid-back Older Sister, Audrey",
+            "name" : "Candid Big Sister, Audrey",
             "skill" : "[CONT](RC):During your turn, if your Order Zone has a card, this unit gets [Power]+5000.",
             "grade" : 2,
             "power" : 8000,
@@ -3802,7 +3802,7 @@
         },
         {
             "id" : "382",
-            "name" : "Staring at Love, Tirsuel",
+            "name" : "Love-gazing, Tyrusiel",
             "skill" : "<b>Black Wings <i>(Active when your bind only has even grades)</i> -</b>[AUTO]:When this unit is put on (GC), choose one of your opponent's back row rear-guards, and [Rest] it.",
             "grade" : 2,
             "power" : 8000,
@@ -3820,7 +3820,7 @@
         },
         {
             "id" : "381",
-            "name" : "Dance Score, Ermel",
+            "name" : "Dancing  Score, Elmer",
             "skill" : "[AUTO]:When this unit is put on (GC), COST [Soul Blast (1)], and this unit gets [Shield]+5000 until end of that battle for each of your cards in your order zone.",
             "grade" : 2,
             "power" : 9000,
@@ -3838,7 +3838,7 @@
         },
         {
             "id" : "380",
-            "name" : "Longing Tied Up, Heilwig",
+            "name" : "Hair-braiding Aspiration, Heilwig",
             "skill" : "[AUTO]:When this unit is placed on (RC) during your battle phase, COST [put this unit into your soul], and draw a card.",
             "grade" : 2,
             "power" : 10000,
@@ -3856,7 +3856,7 @@
         },
         {
             "id" : "379",
-            "name" : "Bodyguards Captain, Marleen",
+            "name" : "Head Groupie, Marleen",
             "skill" : "[CONT](RC/GC):If you have three or more \"Ghost\" on (RC), this unit gets [Power]+2000/[Shield]+5000.",
             "grade" : 2,
             "power" : 10000,
@@ -3892,7 +3892,7 @@
         },
         {
             "id" : "377",
-            "name" : "Red Runway",
+            "name" : "Madder Red Runway",
             "skill" : "<i>(After a Set Order is played, put it into your Order Zone.)</i><br><br>[AUTO]:When this card is put into the Order Zone, if your opponent's vanguard is grade 3 or greater, draw a card.<br><br>[AUTO](Order Zone):When this Song is sung, choose one of your vanguards, and it gets [Critical]+1 until end of turn.",
             "grade" : 2,
             "power" : 0,
@@ -3910,7 +3910,7 @@
         },
         {
             "id" : "376",
-            "name" : "Fulfill Sweets, Anselma",
+            "name" : "Fulfill Sweets, Angelma",
             "skill" : "[AUTO]<span class='tag circle'>(Back Row RC)</span>1/Turn:When your other unit is placed on (RC) during your battle phase, COST [Soul Blast (2)], and draw a card.",
             "grade" : 1,
             "power" : 6000,
@@ -4036,7 +4036,7 @@
         },
         {
             "id" : "369",
-            "name" : "Magnificent Timbre, Ludia",
+            "name" : "Magnificent Timbre, Lyudia",
             "skill" : "[AUTO]:When this unit is placed on (RC), COST [Counter Blast (1) & reveal 2 normal units from your hand, and put them on the bottom of your deck in any order], choose one of your vanguards, search your deck for up to one card with the same card name as that card, reveal it and put it into your hand, and shuffle your deck.",
             "grade" : 1,
             "power" : 8000,
@@ -4054,7 +4054,7 @@
         },
         {
             "id" : "368",
-            "name" : "Blooming Singer, Loronerol",
+            "name" : "Blossoming Vocal, Loronerol",
             "skill" : "[CONT](VC):During your turn, if your Order Zone has a face up Song, this unit gets [Power]+5000.<br><br>[AUTO]:When this unit is rode upon, search your deck or hand for up to one grade 2 Song card, reveal it and put it into your Order Zone, and if you searched your deck, shuffle your deck. If you put it from hand, draw a card.",
             "grade" : 2,
             "power" : 10000,
@@ -4072,7 +4072,7 @@
         },
         {
             "id" : "367",
-            "name" : "Brainy Prayer, Bibuel",
+            "name" : "Brainy Prayer, Bibbuel",
             "skill" : "[ACT](RC):COST [Soul Blast (1) & Retire this unit], draw a card, choose up to one trigger unit from your bind zone, and it gets grade +1 until end of turn.<br><br><b>White Wings <i>(Active when your bind only has odd grades)</i> - </b>[CONT](RC/GC):This unit gets [Power]+5000/[Shield]+5000.",
             "grade" : 3,
             "power" : 8000,
@@ -4126,7 +4126,7 @@
         },
         {
             "id" : "364",
-            "name" : "Demonic Fever, Garviera",
+            "name" : "Fantastic Fur-nale, Catrina",
             "skill" : "<i>(You may only have one [Over] trigger in a deck. When revealed as a trigger, remove that card, draw a card, choose one of your units, and it gets [Power]+100 Million until end of turn! If revealed during drive check, activate its additional effect!)</i><br><br><b>Additional Effect -</b> During this fight, you get <span class=\"red\">\"During your turn, all of your rear-guards get [Power]+10000!\"</span>",
             "grade" : 0,
             "power" : 5000,
@@ -4198,7 +4198,7 @@
         },
         {
             "id" : "360",
-            "name" : "Six Flower Fractals",
+            "name" : "Six-Flower Fractale",
             "skill" : "<i>(After a Set Order is played, put it into your Order Zone.)</i><br><br>[AUTO]:When this card is put into the Order Zone, choose a face down card from your Order Zone, and you may turn it face up.[AUTO](Order Zone):When this Song is sung, choose the same number of your rear-guards as the number of face down cards in your Order Zone, and [Stand] them. Choose one of your vanguards, and it gets [Power]+10000 until end of turn for each unit that was [Stand] by this effect.",
             "grade" : 3,
             "power" : 0,
@@ -4234,7 +4234,7 @@
         },
         {
             "id" : "358",
-            "name" : "Hand Holding, Ernesta",
+            "name" : "Join Grasp, Ernesta",
             "skill" : "[AUTO]<span class='tag circle'>(Back Row RC)</span>:When your other \"Ghost\" is placed on (RC) during your battle phase, [Stand] this unit.",
             "grade" : 1,
             "power" : 8000,
@@ -4252,7 +4252,7 @@
         },
         {
             "id" : "357",
-            "name" : "Talented and Elegant, Elis",
+            "name" : "Brilliance and Elegance, Aerith",
             "skill" : "[AUTO](RC):When this unit is boosted, if your vanguard is \"Astesice, Kairi\", COST [Counter Blast (1)] to choose up to one card from your hand and call it to an open (RC).",
             "grade" : 2,
             "power" : 10000,
@@ -4288,7 +4288,7 @@
         },
         {
             "id" : "355",
-            "name" : "Overserious President, Equinoa",
+            "name" : "Honest Council President, Eknoa",
             "skill" : "[AUTO](RC)1/Turn:When this unit attacks, if your vanguard sung a Song this turn, this unit gets [Power]+5000 until end of turn, then COST [Counter Blast (1) & discard a card from your hand], and draw two cards.",
             "grade" : 2,
             "power" : 10000,
@@ -4306,7 +4306,7 @@
         },
         {
             "id" : "354",
-            "name" : "Rondeau of Dusk Moon, Feltyrosa",
+            "name" : "Rondo of Eventide Moon, Feltyrosa",
             "skill" : "[AUTO](VC):When your drive check reveals a \"Ghost\" normal unit, you may call that unit to an open front row (RC). Then, if you called, COST [Counter Blast (1)], this unit gets drive +1 until end of that battle. <i>(During this battle, increase the drive of this unit by one. Even if this is the last drive check of the battle, you will still perform an additional drive check)</i>",
             "grade" : 3,
             "power" : 13000,
@@ -4396,7 +4396,7 @@
         },
         {
             "id" : "349",
-            "name" : "Reliable Senior, Aries",
+            "name" : "Dependable Senior, Aries",
             "skill" : "[CONT](GC):If you have three or more open (RC), this unit gets [Shield]+10000.",
             "grade" : 1,
             "power" : 7000,
@@ -4432,7 +4432,7 @@
         },
         {
             "id" : "347",
-            "name" : "Flying Away, Cheluel",
+            "name" : "Flight to the Yonder, Cheluel",
             "skill" : "<b>Black Wings <i>(Active when your bind only has even grades)</i>-</b>[AUTO](RC):When this unit attacks, COST [Counter Blast (1)], Soul Charge (1), choose one of your opponent's rear-guards, and that unit cannot [Stand] during the next stand phase.",
             "grade" : 2,
             "power" : 10000,
@@ -4450,7 +4450,7 @@
         },
         {
             "id" : "346",
-            "name" : "Blue-haired Genius, Lysius",
+            "name" : "Blue-haired Prodigy, Receus",
             "skill" : "[AUTO]:When this unit is placed on (RC), choose one of your other units, and it gets [Power]+10000 until end of turn.",
             "grade" : 1,
             "power" : 3000,
@@ -4540,7 +4540,7 @@
         },
         {
             "id" : "341",
-            "name" : "Special Live Tour Around the World!",
+            "name" : "Worldwide Special Live Tour!",
             "skill" : "<i>(After a set order is played, put it into your Order Zone.)</i><br><br>[ACT](Order Zone)1/Turn:COST [Counter Blast (2)], choose one of your vanguards, and until end of turn, it gets <span class='red'>\"[CONT](VC):All of your rear-guards get [Power]+5000.\"</span>.",
             "grade" : 3,
             "power" : 0,
@@ -4612,7 +4612,7 @@
         },
         {
             "id" : "337",
-            "name" : "Faintly Slump? Apel",
+            "name" : "Slight Slump? Apel",
             "skill" : "[AUTO]:When this unit is placed on (RC), COST [Counter Blast (1)], and this unit gets [Power]+10000 until end of turn.",
             "grade" : 2,
             "power" : 8000,
@@ -4630,7 +4630,7 @@
         },
         {
             "id" : "336",
-            "name" : "Energetic School Attendance, Calfy",
+            "name" : "Energetic Attendance, Calfy",
             "skill" : "[AUTO]:When this unit is placed on (RC), this unit gets [Power]+10000 until end of turn.",
             "grade" : 3,
             "power" : 10000,
