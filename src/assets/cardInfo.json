@@ -3,6 +3,42 @@
     "cards":
     [
         {
+            "id" : "596",
+            "name" : "Execution Dragon, Vorpal Scythe Dragon",
+            "skill" : "[ACT](RC)1/Turn:COST [Soul Blast (2)], choose one of your opponent's rear-guards, and retire it.<br><br>[AUTO](RC):When this unit's attack hits, you may Soul Charge (2).",
+            "grade" : 3,
+            "power" : 13000,
+            "shield" : 0,
+            "ability" : "Twin Drive",
+            "nation" : "Dark States",
+            "race" : "Abyss Dragon",
+            "sets" : ["D-PR"],
+            "setCode" : ["D-PR 025"],
+            "keywords" : ["None"],
+            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/596.png",
+            "type" : "Normal Unit",
+            "critical" : 1,
+            "trigger" : "None"
+        },
+        {
+            "id" : "595",
+            "name" : "Slow Kiss ―♡→, Nonna",
+            "skill" : "[AUTO](RC):When this unit's attack hits a vanguard, Soul Charge (2).",
+            "grade" : 2,
+            "power" : 10000,
+            "shield" : 5000,
+            "ability" : "Intercept",
+            "nation" : "Lyrical Monasterio",
+            "race" : "Demon",
+            "sets" : ["D-PR"],
+            "setCode" : ["D-PR 024"],
+            "keywords" : ["None"],
+            "image" : "https://raw.githubusercontent.com/CrowOnslaught/VanguarDecks-cardImages/master/cardImages/595.png",
+            "type" : "Normal Unit",
+            "critical" : 1,
+            "trigger" : "None"
+        },
+        {
             "id" : "594",
             "name" : "Sealed Blaze Shield, Swayanbuh",
             "skill" : "<b>Left Deity Arms</b> - \"Sealed Blaze Maiden, Bavsargra\" <i>(After being played, the specified vanguard Arms it. If a new Left Deity Arms is Armed, put this card into the drop)</i><br><br>Play this with COST [Counter Blast (1)]!<br><br>[AUTO](VC)1/Turn:When the unit Armed with this card is attacked, that Armed unit gets [Power]+10000 until end of that battle.",
